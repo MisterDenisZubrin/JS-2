@@ -3,23 +3,29 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интернет-магазин</title>
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Корзина</title>
+  <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
   <header class="header">
-    <div class="header-wrapper container">
-      <button class="header-cart-button button">Корзина</button>
+    <div class="header__wrapper container">
+      <div class="logo">E-shop</div>
+      <div class="cart">
+        <button class="cart__btn">Корзина</button>
+        <div class="cart__block invisible"></div>
+      </div>
     </div>
   </header>
   <main class="main">
-    <section class="goods-list container"></section>
+    <div class="products container"></div>
   </main>
-
-  <script src="./js/main.js"></script>
+  
+  <script src="js/main.js"></script>
 </body>
 
 </html>
